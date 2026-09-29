@@ -1,14 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0B3D2E,50:12805C,100:2FBF71&height=200&section=header&text=Projetar%20Solu%C3%A7%C3%B5es&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=Trilha%20de%20Forma%C3%A7%C3%A3o%20em%20Desenvolvimento%20de%20Solu%C3%A7%C3%B5es%20com%20IA&descAlignY=55&descSize=18" alt="Projetar Soluções" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0b6bb8&height=200&section=header&text=Projetar%20Solu%C3%A7%C3%B5es&fontSize=52&fontColor=ffffff&fontAlignY=35&desc=Trilha%20de%20Forma%C3%A7%C3%A3o%20em%20Desenvolvimento%20de%20Solu%C3%A7%C3%B5es%20com%20IA&descAlignY=55&descSize=18" alt="Projetar Soluções" />
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=2FBF71&center=true&vCenter=true&width=760&lines=Do+zero+em+programa%C3%A7%C3%A3o+at%C3%A9+uma+aplica%C3%A7%C3%A3o+real+com+IA;150+horas+%C2%B7+8+semanas+%C2%B7+um+projeto+que+cresce+toda+semana;Aqui+moram+os+projetos+dos+nossos+estagi%C3%A1rios" alt="Trilha de Formação" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=0B6BB8&center=true&vCenter=true&width=760&lines=Do+zero+em+programa%C3%A7%C3%A3o+at%C3%A9+uma+aplica%C3%A7%C3%A3o+real+com+IA;150+horas+%C2%B7+8+semanas+%C2%B7+um+projeto+que+cresce+toda+semana;Aqui+moram+os+projetos+dos+nossos+estagi%C3%A1rios" alt="Trilha de Formação" />
 
 <br />
 
-![Duração](https://img.shields.io/badge/Dura%C3%A7%C3%A3o-150%20horas-0B3D2E?style=for-the-badge)
-![Semanas](https://img.shields.io/badge/Percurso-8%20semanas-12805C?style=for-the-badge)
-![Formato](https://img.shields.io/badge/Projeto-individual-2FBF71?style=for-the-badge)
+![Duração](https://img.shields.io/badge/Dura%C3%A7%C3%A3o-150%20horas-084e8c?style=for-the-badge)
+![Semanas](https://img.shields.io/badge/Percurso-8%20semanas-0b6bb8?style=for-the-badge)
+![Formato](https://img.shields.io/badge/Projeto-individual-0b7a55?style=for-the-badge)
 ![Entrega](https://img.shields.io/badge/Entrega-semanal%20no%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
@@ -37,9 +37,9 @@ flowchart LR
     S6 --> S7["<b>7</b><br/>IA generativa<br/>aplicada"]
     S7 --> S8["<b>8</b><br/>Testes e<br/>apresentação"]
 
-    classDef base  fill:#0B3D2E,stroke:#2FBF71,stroke-width:1px,color:#ffffff
-    classDef meio  fill:#12805C,stroke:#2FBF71,stroke-width:1px,color:#ffffff
-    classDef fim   fill:#2FBF71,stroke:#0B3D2E,stroke-width:1px,color:#06231a
+    classDef base  fill:#084e8c,stroke:#a9d8f5,stroke-width:1px,color:#ffffff
+    classDef meio  fill:#0b6bb8,stroke:#a9d8f5,stroke-width:1px,color:#ffffff
+    classDef fim   fill:#ecfbf4,stroke:#0b7a55,stroke-width:1px,color:#1b2a3d
     class S1,S2 base
     class S3,S4,S5,S6 meio
     class S7,S8 fim
@@ -85,6 +85,22 @@ flowchart LR
 
 > ### 📝 A última meia hora é do README
 > Todo dia termina com o registro do que foi feito. Na sexta, esse registro é apresentado junto com o GitHub. Documentar não é a tarefa do fim — é parte do trabalho.
+
+---
+
+## 📦 Onde fica cada coisa
+
+| Repositório | Para que serve |
+|---|---|
+| [`modelo-trilha`](https://github.com/Projetar-Solucoes/modelo-trilha) | O ponto de partida do seu repositório (use o botão **Use this template**) |
+| [`materiais-trilha`](https://github.com/Projetar-Solucoes/materiais-trilha) | Bases de dados e guias das aulas |
+| `trilha-seunome` | O **seu** projeto — um por estagiário, crescendo semana a semana |
+
+As aulas, os vídeos, os exercícios e a correção automática ficam na **Plataforma Projetar**, no menu **Trilha**.
+
+### 🔁 Manhã faz, tarde revisa — e vice-versa
+
+A partir da semana 4, todo pull request é revisado por alguém **da outra turma**: quem é da manhã abre o PR e alguém da tarde revisa no mesmo dia; quem é da tarde abre o PR e alguém da manhã revisa no dia seguinte. É assim que funcionam as equipes que trabalham em lugares e horários diferentes.
 
 ---
 
@@ -135,11 +151,13 @@ Código que você não sabe defender não é seu. Use a IA para aprender mais r�
 
 <br />
 
-**1. Crie o repositório dentro da organização**
+**1. Crie o seu repositório a partir do modelo**
 
-Em [github.com/Projetar-Solucoes](https://github.com/Projetar-Solucoes) → **New repository**. Confira se o dono é `Projetar-Solucoes` (e não o seu usuário pessoal). Sugestão de nome: `trilha-seunome`.
+Abra o [modelo-trilha](https://github.com/Projetar-Solucoes/modelo-trilha) e clique em **Use this template → Create a new repository**. Em **Owner**, escolha `Projetar-Solucoes` (e não o seu usuário pessoal). Nome: `trilha-seunome`. Deixe **Public**.
 
-Marque **Public** e **Add a README file**.
+O modelo já vem com o README guiado, o `.gitignore` certo, uma pasta para cada semana e o [guia rápido do Git](https://github.com/Projetar-Solucoes/modelo-trilha/blob/main/COMO-USAR-O-GIT.md).
+
+Depois, na Plataforma Projetar, abra **Trilha → Meu GitHub** e informe o seu usuário e o nome do repositório: é assim que as atividades são conferidas.
 
 **2. Traga o repositório para o seu computador**
 
@@ -191,6 +209,6 @@ Se alguém de fora consegue rodar o seu projeto só lendo o README, ele está bo
 
 Dúvida sobre conteúdo, projeto ou Git: fale com a equipe de mediação.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2FBF71,50:12805C,100:0B3D2E&height=120&section=footer" alt="" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0b6bb8&height=120&section=footer" alt="" />
 
 </div>
